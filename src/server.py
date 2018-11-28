@@ -1,5 +1,5 @@
 from flask import request
-from flask_stupe import paginate#, schema_required
+# from flask_stupe import paginate, schema_required
 from flask_stupe.json import Stupeflask
 from flask_cors import CORS
 
@@ -9,10 +9,10 @@ from werkzeug.contrib.cache import FileSystemCache
 
 cache = FileSystemCache('cache-dir/', threshold=0, default_timeout=0)
 
-#from pymongo import MongoClient
-#from mongoengine import *
+# from pymongo import MongoClient
+# from mongoengine import *
 
-#from models import *
+# from models import *
 
 from scraper import gen_source_schools, gen_target_schools, gen_target_majors, get_course_reqs
 
@@ -20,7 +20,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-#connect('big-data', host=os.environ.get('DB_URI'))
+# connect('big-data', host=os.environ.get('DB_URI'))
 
 app = Stupeflask(__name__)
 CORS(app)

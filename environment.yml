@@ -1,0 +1,6 @@
+name: calixfer
+channels:
+  - menpo
+  - defaults
+prefix: C:\Users\Tejas\scoop\apps\anaconda3\current\envs\calixfer
+
