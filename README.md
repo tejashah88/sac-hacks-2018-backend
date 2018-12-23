@@ -1,5 +1,5 @@
-# calixfer-backend
-Backend for caliXfer (SacHacks 2018).
+# sac-hacks-2018-backend
+Backend for SacHacks 2018 project.
 
 ## Initial Setup
 
